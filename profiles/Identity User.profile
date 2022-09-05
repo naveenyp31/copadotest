@@ -38,7 +38,7 @@
     <applicationVisibilities>
         <application>standard__LightningBolt</application>
         <default>false</default>
-        <visible>true</visible>
+        <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__LightningSales</application>
@@ -3476,6 +3476,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>IdentityEnabled</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>IsSsoEnabled</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
